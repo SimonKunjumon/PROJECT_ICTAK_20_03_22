@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="26" passed="13" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-17T23:12:43 IST" name="Suite" finished-at="2022-03-17T23:14:59 IST" duration-ms="136410">
+    <groups>
+    </groups>
+    <test started-at="2022-03-17T23:12:43 IST" name="Test" finished-at="2022-03-17T23:14:59 IST" duration-ms="136410">
+      <class name="com.ictaktechblog.scripts.TestCase3">
+        <test-method signature="verifyEditPost()[pri:10, instance:com.ictaktechblog.scripts.TestCase3@18d87d80]" started-at="2022-03-17T23:14:27 IST" name="verifyEditPost" finished-at="2022-03-17T23:14:34 IST" duration-ms="7040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditPost -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ictaktechblog.scripts.TestCase3@18d87d80]" started-at="2022-03-17T23:14:34 IST" name="tearDown" finished-at="2022-03-17T23:14:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEditPost status=SUCCESS method=TestCase3.verifyEditPost()[pri:10, instance:com.ictaktechblog.scripts.TestCase3@18d87d80] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyAuthorNameEdit()[pri:11, instance:com.ictaktechblog.scripts.TestCase3@18d87d80]" started-at="2022-03-17T23:14:34 IST" name="verifyAuthorNameEdit" finished-at="2022-03-17T23:14:38 IST" duration-ms="4639" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.ictaktechblog.scripts.TestCase3.verifyAuthorNameEdit(TestCase3.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAuthorNameEdit -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ictaktechblog.scripts.TestCase3@18d87d80]" started-at="2022-03-17T23:14:38 IST" name="tearDown" finished-at="2022-03-17T23:14:39 IST" duration-ms="1021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAuthorNameEdit status=FAILURE method=TestCase3.verifyAuthorNameEdit()[pri:11, instance:com.ictaktechblog.scripts.TestCase3@18d87d80] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyRemovePosts()[pri:12, instance:com.ictaktechblog.scripts.TestCase3@18d87d80]" started-at="2022-03-17T23:14:39 IST" name="verifyRemovePosts" finished-at="2022-03-17T23:14:43 IST" duration-ms="3162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemovePosts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ictaktechblog.scripts.TestCase3@18d87d80]" started-at="2022-03-17T23:14:43 IST" name="tearDown" finished-at="2022-03-17T23:14:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRemovePosts status=SUCCESS method=TestCase3.verifyRemovePosts()[pri:12, instance:com.ictaktechblog.scripts.TestCase3@18d87d80] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ictaktechblog.scripts.TestCase3 -->
+      <class name="com.ictaktechblog.scripts.TestCase4">
+        <test-method signature="verifyAddCategory()[pri:13, instance:com.ictaktechblog.scripts.TestCase4@618425b5]" started-at="2022-03-17T23:14:43 IST" name="verifyAddCategory" finished-at="2022-03-17T23:14:51 IST" duration-ms="8551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddCategory -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ictaktechblog.scripts.TestCase4@618425b5]" started-at="2022-03-17T23:14:51 IST" name="tearDown" finished-at="2022-03-17T23:14:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddCategory status=SUCCESS method=TestCase4.verifyAddCategory()[pri:13, instance:com.ictaktechblog.scripts.TestCase4@618425b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyRemoveCategory()[pri:13, instance:com.ictaktechblog.scripts.TestCase4@618425b5]" started-at="2022-03-17T23:14:51 IST" name="verifyRemoveCategory" finished-at="2022-03-17T23:14:56 IST" duration-ms="4695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemoveCategory -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ictaktechblog.scripts.TestCase4@618425b5]" started-at="2022-03-17T23:14:56 IST" name="tearDown" finished-at="2022-03-17T23:14:56 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRemoveCategory status=SUCCESS method=TestCase4.verifyRemoveCategory()[pri:13, instance:com.ictaktechblog.scripts.TestCase4@618425b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyAddCategoryValidation()[pri:14, instance:com.ictaktechblog.scripts.TestCase4@618425b5]" started-at="2022-03-17T23:14:56 IST" name="verifyAddCategoryValidation" finished-at="2022-03-17T23:14:59 IST" duration-ms="3194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddCategoryValidation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ictaktechblog.scripts.TestCase4@618425b5]" started-at="2022-03-17T23:14:59 IST" name="tearDown" finished-at="2022-03-17T23:14:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddCategoryValidation status=SUCCESS method=TestCase4.verifyAddCategoryValidation()[pri:14, instance:com.ictaktechblog.scripts.TestCase4@618425b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ictaktechblog.scripts.TestCase4 -->
+      <class name="com.ictaktechblog.scripts.TestCase1">
+        <test-method signature="verifyNewPostsValidation()[pri:0, instance:com.ictaktechblog.scripts.TestCase1@1e04fa0a]" started-at="2022-03-17T23:13:32 IST" name="verifyNewPostsValidation" finished-at="2022-03-17T23:13:41 IST" duration-ms="9184" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [required field] but found [New Post Added]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [required field] but found [New Post Added]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.ictaktechblog.scripts.TestCase1.verifyNewPostsValidation(TestCase1.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewPostsValidation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ictaktechblog.scripts.TestCase1@1e04fa0a]" started-at="2022-03-17T23:13:41 IST" name="tearDown" finished-at="2022-03-17T23:13:42 IST" duration-ms="1386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNewPostsValidation status=FAILURE method=TestCase1.verifyNewPostsValidation()[pri:0, instance:com.ictaktechblog.scripts.TestCase1@1e04fa0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyInvalidNewPost()[pri:8, instance:com.ictaktechblog.scripts.TestCase1@1e04fa0a]" started-at="2022-03-17T23:13:42 IST" name="verifyInvalidNewPost" finished-at="2022-03-17T23:13:54 IST" duration-ms="11554" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Invalid entry] but found [New Post Added]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Invalid entry] but found [New Post Added]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.ictaktechblog.scripts.TestCase1.verifyInvalidNewPost(TestCase1.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidNewPost -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ictaktechblog.scripts.TestCase1@1e04fa0a]" started-at="2022-03-17T23:13:54 IST" name="tearDown" finished-at="2022-03-17T23:13:56 IST" duration-ms="1733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidNewPost status=FAILURE method=TestCase1.verifyInvalidNewPost()[pri:8, instance:com.ictaktechblog.scripts.TestCase1@1e04fa0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ictaktechblog.scripts.TestCase1 -->
+      <class name="com.ictaktechblog.scripts.TestCase">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.ictaktechblog.scripts.TestCase@1da2cb77]" started-at="2022-03-17T23:12:43 IST" name="onSetup" finished-at="2022-03-17T23:12:54 IST" duration-ms="11715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="verifyValidLogin()[pri:1, instance:com.ictaktechblog.scripts.TestCase@1da2cb77]" started-at="2022-03-17T23:12:54 IST" name="verifyValidLogin" finished-at="2022-03-17T23:13:00 IST" duration-ms="5585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ictaktechblog.scripts.TestCase@1da2cb77]" started-at="2022-03-17T23:13:00 IST" name="tearDown" finished-at="2022-03-17T23:13:00 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=TestCase.verifyValidLogin()[pri:1, instance:com.ictaktechblog.scripts.TestCase@1da2cb77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyCreateTrainerPosts()[pri:2, instance:com.ictaktechblog.scripts.TestCase@1da2cb77]" started-at="2022-03-17T23:13:00 IST" name="verifyCreateTrainerPosts" finished-at="2022-03-17T23:13:06 IST" duration-ms="5727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateTrainerPosts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ictaktechblog.scripts.TestCase@1da2cb77]" started-at="2022-03-17T23:13:06 IST" name="tearDown" finished-at="2022-03-17T23:13:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateTrainerPosts status=SUCCESS method=TestCase.verifyCreateTrainerPosts()[pri:2, instance:com.ictaktechblog.scripts.TestCase@1da2cb77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyLogout()[pri:3, instance:com.ictaktechblog.scripts.TestCase@1da2cb77]" started-at="2022-03-17T23:13:06 IST" name="verifyLogout" finished-at="2022-03-17T23:13:08 IST" duration-ms="2306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ictaktechblog.scripts.TestCase@1da2cb77]" started-at="2022-03-17T23:13:08 IST" name="tearDown" finished-at="2022-03-17T23:13:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogout status=SUCCESS method=TestCase.verifyLogout()[pri:3, instance:com.ictaktechblog.scripts.TestCase@1da2cb77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyAdminValidLogin()[pri:4, instance:com.ictaktechblog.scripts.TestCase@1da2cb77]" started-at="2022-03-17T23:13:08 IST" name="verifyAdminValidLogin" finished-at="2022-03-17T23:13:11 IST" duration-ms="3280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminValidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ictaktechblog.scripts.TestCase@1da2cb77]" started-at="2022-03-17T23:13:11 IST" name="tearDown" finished-at="2022-03-17T23:13:11 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminValidLogin status=SUCCESS method=TestCase.verifyAdminValidLogin()[pri:4, instance:com.ictaktechblog.scripts.TestCase@1da2cb77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyCreateAdminPosts()[pri:5, instance:com.ictaktechblog.scripts.TestCase@1da2cb77]" started-at="2022-03-17T23:13:11 IST" name="verifyCreateAdminPosts" finished-at="2022-03-17T23:13:22 IST" duration-ms="10483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateAdminPosts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ictaktechblog.scripts.TestCase@1da2cb77]" started-at="2022-03-17T23:13:22 IST" name="tearDown" finished-at="2022-03-17T23:13:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateAdminPosts status=SUCCESS method=TestCase.verifyCreateAdminPosts()[pri:5, instance:com.ictaktechblog.scripts.TestCase@1da2cb77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyCreateUserPosts()[pri:6, instance:com.ictaktechblog.scripts.TestCase@1da2cb77]" started-at="2022-03-17T23:13:22 IST" name="verifyCreateUserPosts" finished-at="2022-03-17T23:13:32 IST" duration-ms="10036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateUserPosts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ictaktechblog.scripts.TestCase@1da2cb77]" started-at="2022-03-17T23:13:32 IST" name="tearDown" finished-at="2022-03-17T23:13:32 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateUserPosts status=SUCCESS method=TestCase.verifyCreateUserPosts()[pri:6, instance:com.ictaktechblog.scripts.TestCase@1da2cb77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.ictaktechblog.scripts.TestCase@1da2cb77]" started-at="2022-03-17T23:14:59 IST" name="quitBrowser" finished-at="2022-03-17T23:15:00 IST" duration-ms="1088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.ictaktechblog.scripts.TestCase -->
+      <class name="com.ictaktechblog.scripts.TestCase2">
+        <test-method signature="VerifyApprove()[pri:9, instance:com.ictaktechblog.scripts.TestCase2@1af2d44a]" started-at="2022-03-17T23:13:56 IST" name="VerifyApprove" finished-at="2022-03-17T23:14:12 IST" duration-ms="15964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyApprove -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ictaktechblog.scripts.TestCase2@1af2d44a]" started-at="2022-03-17T23:14:12 IST" name="tearDown" finished-at="2022-03-17T23:14:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyApprove status=SUCCESS method=TestCase2.VerifyApprove()[pri:9, instance:com.ictaktechblog.scripts.TestCase2@1af2d44a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyReject()[pri:10, instance:com.ictaktechblog.scripts.TestCase2@1af2d44a]" started-at="2022-03-17T23:14:12 IST" name="verifyReject" finished-at="2022-03-17T23:14:27 IST" duration-ms="14916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReject -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ictaktechblog.scripts.TestCase2@1af2d44a]" started-at="2022-03-17T23:14:27 IST" name="tearDown" finished-at="2022-03-17T23:14:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyReject status=SUCCESS method=TestCase2.verifyReject()[pri:10, instance:com.ictaktechblog.scripts.TestCase2@1af2d44a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ictaktechblog.scripts.TestCase2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

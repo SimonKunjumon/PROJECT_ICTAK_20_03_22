@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.ictaktechblog.scripts.TestCase"/>
+      <class name="com.ictaktechblog.TestBase.TestBase"/>
+      <class name="com.ictaktechblog.scripts.TestCase1"/>
+      <class name="com.ictaktechblog.scripts.TestCase2"/>
+      <class name="com.ictaktechblog.scripts.TestCase3"/>
+      <class name="com.ictaktechblog.scripts.TestCase4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
