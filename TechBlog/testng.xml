@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+<parameter name="browser" value="chrome"/> 
+    <classes>
+      <class name="com.techblog.scripts.TestClass"/>
+     
+     
+     <class name="com.techblog.scripts.TestClassAddCategory"/>
+	 <class name="com.techblog.scripts.TestClassRemoveCategory"/>
+	 
+	 <class name="com.techblog.scripts.TestClassEditPost"/>
+   
+	 <class name="com.techblog.scripts.TestClassDeletePost"/>
+     <class name="com.techblog.scripts.TestClassCreatePost"/>
+     <class name="com.techblog.scripts.TestClassApprovePost"/>
+	 <class name="com.techblog.scripts.TestClassRejectPost"/>
+
+     
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="14" total="26" passed="10" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-21T08:28:41 IST" name="Suite" finished-at="2022-03-21T08:31:46 IST" duration-ms="185153">
+    <groups>
+    </groups>
+    <test started-at="2022-03-21T08:28:41 IST" name="Test" finished-at="2022-03-21T08:31:46 IST" duration-ms="185153">
+      <class name="com.techblog.scripts.TestClassCreatePost">
+        <test-method signature="create_newpost()[pri:1, instance:com.techblog.scripts.TestClassCreatePost@50378a4]" started-at="2022-03-21T08:30:42 IST" name="create_newpost" finished-at="2022-03-21T08:31:19 IST" duration-ms="37003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_newpost -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.techblog.scripts.TestClassCreatePost@50378a4]" started-at="2022-03-21T08:31:19 IST" name="tearDown" finished-at="2022-03-21T08:31:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=create_newpost status=SUCCESS method=TestClassCreatePost.create_newpost()[pri:1, instance:com.techblog.scripts.TestClassCreatePost@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.techblog.scripts.TestClassCreatePost -->
+      <class name="com.techblog.scripts.TestClassRejectPost">
+        <test-method signature="Rejectpost()[pri:1, instance:com.techblog.scripts.TestClassRejectPost@79207381]" started-at="2022-03-21T08:31:22 IST" name="Rejectpost" finished-at="2022-03-21T08:31:43 IST" duration-ms="21504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rejectpost -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.techblog.scripts.TestClassRejectPost@79207381]" started-at="2022-03-21T08:31:43 IST" name="tearDown" finished-at="2022-03-21T08:31:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Rejectpost status=SUCCESS method=TestClassRejectPost.Rejectpost()[pri:1, instance:com.techblog.scripts.TestClassRejectPost@79207381] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Logoutadmin()[pri:2, instance:com.techblog.scripts.TestClassRejectPost@79207381]" started-at="2022-03-21T08:31:43 IST" name="Logoutadmin" finished-at="2022-03-21T08:31:45 IST" duration-ms="1353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logoutadmin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.techblog.scripts.TestClassRejectPost@79207381]" started-at="2022-03-21T08:31:45 IST" name="tearDown" finished-at="2022-03-21T08:31:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Logoutadmin status=SUCCESS method=TestClassRejectPost.Logoutadmin()[pri:2, instance:com.techblog.scripts.TestClassRejectPost@79207381] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.techblog.scripts.TestClassRejectPost -->
+      <class name="com.techblog.scripts.TestClassDeletePost">
+        <test-method signature="Delete_adminpost()[pri:1, instance:com.techblog.scripts.TestClassDeletePost@5884a914]" started-at="2022-03-21T08:30:38 IST" name="Delete_adminpost" finished-at="2022-03-21T08:30:39 IST" duration-ms="1473" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (505, -350)
+  (Session info: chrome=99.0.4844.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QPBI68O', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\vineetha\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d35e77be1fd5014d52a715a08f5393d6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (505, -350)
+  (Session info: chrome=99.0.4844.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QPBI68O', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\vineetha\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d35e77be1fd5014d52a715a08f5393d6
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at com.techblog.pages.DeletePostPage.delete_post(DeletePostPage.java:28)
+at com.techblog.scripts.TestClassDeletePost.Delete_adminpost(TestClassDeletePost.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_adminpost -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.techblog.scripts.TestClassDeletePost@5884a914]" started-at="2022-03-21T08:30:39 IST" name="tearDown" finished-at="2022-03-21T08:30:42 IST" duration-ms="2817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Delete_adminpost status=FAILURE method=TestClassDeletePost.Delete_adminpost()[pri:1, instance:com.techblog.scripts.TestClassDeletePost@5884a914] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.techblog.scripts.TestClassDeletePost -->
+      <class name="com.techblog.scripts.TestClassEditPost">
+        <test-method signature="EditPost()[pri:1, instance:com.techblog.scripts.TestClassEditPost@25df00a0]" started-at="2022-03-21T08:30:04 IST" name="EditPost" finished-at="2022-03-21T08:30:38 IST" duration-ms="33581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditPost -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.techblog.scripts.TestClassEditPost@25df00a0]" started-at="2022-03-21T08:30:38 IST" name="tearDown" finished-at="2022-03-21T08:30:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditPost status=SUCCESS method=TestClassEditPost.EditPost()[pri:1, instance:com.techblog.scripts.TestClassEditPost@25df00a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.techblog.scripts.TestClassEditPost -->
+      <class name="com.techblog.scripts.TestClassRemoveCategory">
+        <test-method signature="Remove_CategoryAdmin()[pri:1, instance:com.techblog.scripts.TestClassRemoveCategory@c05fddc]" started-at="2022-03-21T08:29:47 IST" name="Remove_CategoryAdmin" finished-at="2022-03-21T08:30:04 IST" duration-ms="16841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Remove_CategoryAdmin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.techblog.scripts.TestClassRemoveCategory@c05fddc]" started-at="2022-03-21T08:30:04 IST" name="tearDown" finished-at="2022-03-21T08:30:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Remove_CategoryAdmin status=SUCCESS method=TestClassRemoveCategory.Remove_CategoryAdmin()[pri:1, instance:com.techblog.scripts.TestClassRemoveCategory@c05fddc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.techblog.scripts.TestClassRemoveCategory -->
+      <class name="com.techblog.scripts.TestClass">
+        <test-method is-config="true" signature="onSetup(java.lang.String)[pri:0, instance:com.techblog.scripts.TestClass@6a8658ff]" started-at="2022-03-21T08:28:41 IST" name="onSetup" finished-at="2022-03-21T08:28:55 IST" duration-ms="13176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="verifyValidLogin()[pri:1, instance:com.techblog.scripts.TestClass@6a8658ff]" started-at="2022-03-21T08:28:55 IST" name="verifyValidLogin" finished-at="2022-03-21T08:29:05 IST" duration-ms="10516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.techblog.scripts.TestClass@6a8658ff]" started-at="2022-03-21T08:29:05 IST" name="tearDown" finished-at="2022-03-21T08:29:05 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=TestClass.verifyValidLogin()[pri:1, instance:com.techblog.scripts.TestClass@6a8658ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Verify_AdminHome()[pri:2, instance:com.techblog.scripts.TestClass@6a8658ff]" started-at="2022-03-21T08:29:05 IST" name="Verify_AdminHome" finished-at="2022-03-21T08:29:09 IST" duration-ms="3658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_AdminHome -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.techblog.scripts.TestClass@6a8658ff]" started-at="2022-03-21T08:29:09 IST" name="tearDown" finished-at="2022-03-21T08:29:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_AdminHome status=SUCCESS method=TestClass.Verify_AdminHome()[pri:2, instance:com.techblog.scripts.TestClass@6a8658ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="mypost()[pri:3, instance:com.techblog.scripts.TestClass@6a8658ff]" started-at="2022-03-21T08:29:09 IST" name="mypost" finished-at="2022-03-21T08:29:13 IST" duration-ms="4645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mypost -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.techblog.scripts.TestClass@6a8658ff]" started-at="2022-03-21T08:29:13 IST" name="tearDown" finished-at="2022-03-21T08:29:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mypost status=SUCCESS method=TestClass.mypost()[pri:3, instance:com.techblog.scripts.TestClass@6a8658ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="aboutus()[pri:4, instance:com.techblog.scripts.TestClass@6a8658ff]" started-at="2022-03-21T08:29:13 IST" name="aboutus" finished-at="2022-03-21T08:29:18 IST" duration-ms="4444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutus -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.techblog.scripts.TestClass@6a8658ff]" started-at="2022-03-21T08:29:18 IST" name="tearDown" finished-at="2022-03-21T08:29:18 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=aboutus status=SUCCESS method=TestClass.aboutus()[pri:4, instance:com.techblog.scripts.TestClass@6a8658ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.techblog.scripts.TestClass@6a8658ff]" started-at="2022-03-21T08:31:45 IST" name="quitBrowser" finished-at="2022-03-21T08:31:46 IST" duration-ms="1879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.techblog.scripts.TestClass -->
+      <class name="com.techblog.scripts.TestClassAddCategory">
+        <test-method signature="Add_category()[pri:1, instance:com.techblog.scripts.TestClassAddCategory@7e990ed7]" started-at="2022-03-21T08:29:18 IST" name="Add_category" finished-at="2022-03-21T08:29:47 IST" duration-ms="29177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_category -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.techblog.scripts.TestClassAddCategory@7e990ed7]" started-at="2022-03-21T08:29:47 IST" name="tearDown" finished-at="2022-03-21T08:29:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Add_category status=SUCCESS method=TestClassAddCategory.Add_category()[pri:1, instance:com.techblog.scripts.TestClassAddCategory@7e990ed7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.techblog.scripts.TestClassAddCategory -->
+      <class name="com.techblog.scripts.TestClassApprovePost">
+        <test-method signature="Approve_postAdmin()[pri:1, instance:com.techblog.scripts.TestClassApprovePost@60f00693]" started-at="2022-03-21T08:31:19 IST" name="Approve_postAdmin" finished-at="2022-03-21T08:31:20 IST" duration-ms="1336" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (586, -677)
+  (Session info: chrome=99.0.4844.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QPBI68O', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\vineetha\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d35e77be1fd5014d52a715a08f5393d6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (586, -677)
+  (Session info: chrome=99.0.4844.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QPBI68O', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\vineetha\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d35e77be1fd5014d52a715a08f5393d6
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at com.techblog.pages.PendingApprovalPage.Approve_post(PendingApprovalPage.java:38)
+at com.techblog.scripts.TestClassApprovePost.Approve_postAdmin(TestClassApprovePost.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Approve_postAdmin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.techblog.scripts.TestClassApprovePost@60f00693]" started-at="2022-03-21T08:31:20 IST" name="tearDown" finished-at="2022-03-21T08:31:22 IST" duration-ms="1547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Approve_postAdmin status=FAILURE method=TestClassApprovePost.Approve_postAdmin()[pri:1, instance:com.techblog.scripts.TestClassApprovePost@60f00693] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.techblog.scripts.TestClassApprovePost -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
